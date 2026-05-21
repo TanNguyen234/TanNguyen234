@@ -1,7 +1,7 @@
 
 # Tan Nguyen — Aspiring AI Engineer
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org) [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org) [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org) [![OpenCV](https://img.shields.io/badge/OpenCV-%23007ACC.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org) [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org) [![OpenCV](https://img.shields.io/badge/OpenCV-%23007ACC.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
 
 Hi — I'm Tan. I'm looking for opportunities as an **Intern / Entry-level AI Engineer**. I'm passionate about Machine Learning, Computer Vision, and building practical intelligent systems.
 
@@ -9,14 +9,14 @@ Hi — I'm Tan. I'm looking for opportunities as an **Intern / Entry-level AI En
 
 **Quick Summary**
 - Interests: Machine Learning, Deep Learning, Computer Vision, Data Science
-- Experience: Hands-on with PyTorch, TensorFlow, OpenCV; deployment using Docker and FastAPI
+- Experience: Hands-on with PyTorch, OpenCV; deployment using Docker and FastAPI
 - Goal: Rapid learning, contributing to real-world projects, and growing research skills
 
 ---
 
 **Core Skills**
 - Languages: Python, JavaScript
-- Libraries / Frameworks: PyTorch, TensorFlow, scikit-learn, OpenCV, NumPy, Pandas
+- Libraries / Frameworks: PyTorch, scikit-learn, OpenCV, NumPy, Pandas
 - Databases & Backend: MySQL, MongoDB, FastAPI
 - DevOps & Tools: Docker, Git, Google Colab
 
