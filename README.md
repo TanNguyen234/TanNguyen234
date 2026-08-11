@@ -98,15 +98,8 @@ AI Engineering Core
     └── Observability & Evaluation Pipelines
 ```
 
----
-
 ### GitHub Analytics & Stats
 
-<div align="center">
-
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="TanNguyen234 GitHub stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=TanNguyen234&theme=tokyonight&hide_border=true" alt="TanNguyen234 GitHub streak" />
-
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanNguyen234&layout=compact&theme=tokyonight&hide_border=true" alt="TanNguyen234 Top Languages" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanNguyen234&theme=tokyonight&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+</p>
