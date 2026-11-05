@@ -1,105 +1,72 @@
-<div align="center">
+# Tan Nguyen
 
-# Tan Nguyen — Aspiring AI Engineer
+**Information Technology student | AI Engineering, LLM Applications & Computer Vision**
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+Based in Ho Chi Minh City, Vietnam. Interested in **AI Engineer Intern / Fresher** opportunities.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=0969DA&center=true&vcenter=true&width=600&lines=AI+Engineer+Intern+%2F+Fresher;Machine+Learning+%26+Deep+Learning;Computer+Vision+%26+Medical+Imaging;RAG+%26+LLM+Agent+Systems)](https://git.io/typing-svg)
+I build software around machine learning: from data preparation and model evaluation to APIs, retrieval pipelines, and user-facing applications. I value reproducible experiments, clear limitations, and evidence-backed results.
 
-</div>
+## Areas of Focus
 
----
+- **LLM systems:** retrieval-augmented generation (RAG), grounded answers, agent workflows, and evaluation.
+- **Machine learning & vision:** dataset preparation, metric learning, object detection, and error analysis.
+- **AI application engineering:** Python services, REST APIs, streaming interfaces, testing, and deployment workflows.
 
-### Executive Summary
-Hi — I'm Tan. I'm an **Information Technology** student based in Ho Chi Minh City, Vietnam, looking for **AI Engineer Intern / Fresher** roles.
+## Selected Projects
 
-- **Focus**: Building end-to-end AI applications, RAG pipelines, LLM agent systems, and computer vision models.
-- **Approach**: Pragmatic engineering — handling data pipelines, model optimization, API integration, and containerized deployment.
-- **Goal**: Applying research into production-ready AI solutions with clean architecture and system observability.
+### [VietLex — Vietnamese Legal Research Assistant](https://github.com/TanNguyen234/VietLex-Tech-Spec)
 
----
+Research application for Vietnamese legal documents with source-linked retrieval, citations, guardrails, and evaluation workflows. The repository documents both technical checks and remaining production-readiness limitations.
 
-### Tech Stack & Tooling
+**Topics:** RAG, retrieval evaluation, Python, application engineering.
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Machine Learning & DL** | `Python` `PyTorch` `TensorFlow` `Scikit-Learn` `OpenCV` `YOLO` |
-| **AI Engineering & LLM** | `LangGraph` `RAG` `LLM APIs` `FastAPI` `REST APIs` `Docker` |
-| **Data & Infrastructure** | `MySQL` `MongoDB` `Django` `Kaggle` `Google Colab` `Git` |
+### [AI CV Review System](https://github.com/TanNguyen234/CV-Review-System)
 
----
+CV processing and multi-agent assessment prototype using LangGraph and FastAPI. Includes PDF extraction, configurable evaluation stages, Server-Sent Events (SSE) updates, and a browser interface built with vanilla JavaScript.
 
-### Featured Projects
+**Topics:** LangGraph, FastAPI, document processing, API streaming.
 
-<details open>
-<summary><b>AI CV Review System</b> — <code>LangGraph</code> <code>LLM</code> <code>FastAPI</code> <code>React</code> <code>Docker</code></summary>
-<br>
+### [FinEvent — Financial Event Extraction](https://github.com/TanNguyen234/finevent-nlp-finance)
 
-> Multi-agent system for analyzing CVs using configurable evaluation rubrics and optional job descriptions.
+NLP project for extracting evidence-linked events from SEC filings and comparing financial guidance across reporting periods. Includes data, training, evaluation, API, and frontend components.
 
-- Structured CV extraction and preprocessing pipeline.
-- Multi-agent evaluation workflow orchestrated with **LangGraph**.
-- JD-aware CV analysis, scoring, and automated LLM report generation.
-- **FastAPI** backend with Server-Sent Events (SSE) streaming & **Docker** containerization.
-</details>
+**Topics:** information extraction, financial NLP, evidence attribution, evaluation.
 
-<details>
-<summary><b>Grounded Medical Vision System</b> — <code>PyTorch</code> <code>YOLO</code> <code>Computer Vision</code></summary>
-<br>
+### [VAIPE-MedGuard — Medication Image Research](https://github.com/TanNguyen234/vaipe-medguard)
 
-> Medical computer vision pipeline for chest X-ray abnormality detection.
+Research prototype exploring DINOv2-based representations and gallery matching for identifying medication images under prescription constraints. **Not a clinically validated tool or a substitute for professional medication verification.**
 
-- Multi-dataset preprocessing and label harmonization.
-- Patient-level data splitting to eliminate data leakage.
-- Transfer learning, detector fine-tuning, and recall-oriented evaluation.
-- Scalable GPU training workflows structured on Kaggle.
-</details>
+**Topics:** PyTorch, DINOv2, metric learning, dataset evaluation.
 
-<details>
-<summary><b>Surface Defect Detection</b> — <code>YOLO</code> <code>PyTorch</code> <code>OpenCV</code></summary>
-<br>
+### [YouTubeAgents — Agent-Assisted Video Workflow](https://github.com/TanNguyen234/YoutubeAgents)
 
-> Real-time industrial surface defect identification on the NEU dataset.
+Experimental workflow for researching, scripting, preparing, and reviewing YouTube videos. The repository describes human approval gates and outstanding end-to-end verification requirements; it is **not presented as a fully autonomous production system**.
 
-- Class distribution analysis and image augmentation strategies.
-- YOLO architecture tuning, error analysis, and visualization.
-</details>
+**Topics:** agent orchestration, media pipelines, quality gates, Python.
 
-<details>
-<summary><b>RAG & AI Agent Experiments</b> — <code>RAG</code> <code>LLM</code> <code>LangGraph</code> <code>Retrieval</code></summary>
-<br>
+### [NEU Surface Defect Detection](https://github.com/TanNguyen234/NEU-Surface-Defect-Detection)
 
-> Experimental framework for domain-specific LLM retrieval and generation workflows.
+Object-detection pipeline for steel-surface defects, covering dataset conversion, YOLO training, inference, and result visualization.
 
-- Hybrid semantic retrieval, document chunking, and reranking modules.
-- Hallucination reduction through strict context verification & tool calling.
-</details>
+**Topics:** YOLO, OpenCV, computer vision, training workflows.
 
----
+## Tools I Work With
 
-### Technical Roadmap
+| Area | Tools and concepts |
+| --- | --- |
+| AI / ML | Python, PyTorch, YOLO, OpenCV, DINOv2 |
+| LLM / NLP | LangGraph, RAG, retrieval and reranking, LLM APIs |
+| Applications | FastAPI, REST APIs, React, JavaScript, Docker |
+| Quality / experiments | Pytest, Git, reproducible evaluation, Kaggle |
 
-```text
-AI Engineering Core
-├── Machine Learning & Deep Learning
-│   ├── Computer Vision & Medical Imaging
-│   └── Model Optimization & Hyperparameter Tuning
-├── LLM Applications & Agents
-│   ├── Hybrid RAG Architecture
-│   └── Multi-Agent Systems (LangGraph)
-└── System & MLOps Infrastructure
-    ├── RESTful APIs (FastAPI) & Microservices
-    ├── Containerization (Docker)
-    └── Observability & Evaluation Pipelines
-```
+## Engineering Approach
 
-### GitHub Analytics & Stats
+- Connect claims to source code, experiments, tests, or documented evidence.
+- Separate **implemented features**, **measured results**, and **work in progress**.
+- Prefer explicit failure states and human review for high-impact actions.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanNguyen234&theme=tokyonight&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-</p>
+## Explore More
+
+- [All GitHub repositories](https://github.com/TanNguyen234?tab=repositories)
+- [Portfolio source repository](https://github.com/TanNguyen234/portforlio)
+- [Profile source and maintenance notes](https://github.com/TanNguyen234/TanNguyen234/blob/main/docs/PROFILE_SOURCES.md)
