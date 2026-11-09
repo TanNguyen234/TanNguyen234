@@ -1,72 +1,189 @@
-# Tan Nguyen
+<div align="center">
 
-**Information Technology student | AI Engineering, LLM Applications & Computer Vision**
+<!-- THEME-ADAPTIVE HEADER TYPING SVG -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=85&lines=Nguyen+Thanh+Duy+Tan+%7C+AI+Engineer;Production+RAG+%E2%80%A2+Multi-Agent+Systems+%E2%80%A2+Computer+Vision" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1000&color=0969DA&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=85&lines=Nguyen+Thanh+Duy+Tan+%7C+AI+Engineer;Production+RAG+%E2%80%A2+Multi-Agent+Systems+%E2%80%A2+Computer+Vision" />
+  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=85&lines=Nguyen+Thanh+Duy+Tan+%7C+AI+Engineer;Production+RAG+%E2%80%A2+Multi-Agent+Systems+%E2%80%A2+Computer+Vision" />
+</picture>
 
-Based in Ho Chi Minh City, Vietnam. Interested in **AI Engineer Intern / Fresher** opportunities.
+<sub><b>Designing low-latency retrieval pipelines, autonomous multi-agent workflows, and multimodal vision/OCR systems.</b></sub>
 
-I build software around machine learning: from data preparation and model evaluation to APIs, retrieval pipelines, and user-facing applications. I value reproducible experiments, clear limitations, and evidence-backed results.
+<br/><br/>
 
-## Areas of Focus
+<!-- CONTACT & STATUS BADGES -->
+[![Email](https://img.shields.io/badge/Email-tanntd.2005%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tanntd.2005@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-TanNguyen234-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TanNguyen234)
+[![Location](https://img.shields.io/badge/Location-Ho_Chi_Minh_City,_VN-007ACC?style=flat-square&logo=googlemaps&logoColor=white)](#)
+[![Focus](https://img.shields.io/badge/Focus-RAG_%7C_AI_Agents_%7C_CV_%26_OCR-2EA043?style=flat-square)](#)
 
-- **LLM systems:** retrieval-augmented generation (RAG), grounded answers, agent workflows, and evaluation.
-- **Machine learning & vision:** dataset preparation, metric learning, object detection, and error analysis.
-- **AI application engineering:** Python services, REST APIs, streaming interfaces, testing, and deployment workflows.
+</div>
 
-## Selected Projects
+---
 
-### [VietLex — Vietnamese Legal Research Assistant](https://github.com/TanNguyen234/VietLex-Tech-Spec)
+> [!IMPORTANT]
+> **Current Engineering Focus:** Building end-to-end AI systems with measurable latency/accuracy SLAs—from **Hybrid Legal RAG (518K+ docs)** and **LangGraph Multi-Agent Orchestration** to **ONNX-accelerated Computer Vision & Vietnamese OCR pipelines**. Open to **AI Engineer (Intern / Fresher)** opportunities in Ho Chi Minh City.
 
-Research application for Vietnamese legal documents with source-linked retrieval, citations, guardrails, and evaluation workflows. The repository documents both technical checks and remaining production-readiness limitations.
+---
 
-**Topics:** RAG, retrieval evaluation, Python, application engineering.
+### ⚡ Engineering Snapshot
 
-### [AI CV Review System](https://github.com/TanNguyen234/CV-Review-System)
+```diff
++ Hybrid RAG & Retrieval   : BAAI/bge-m3 + bge-reranker-v2-m3 (ONNX Runtime) | Qdrant Vector + SQLite FTS5
++ Multi-Agent Workflows    : LangGraph state machines, structured tool calling, deterministic validation
++ Vision, OCR & Audio AI   : YOLOv8/v11, SAM 2, PaddleOCR (120K+ synthetic Vi-Manga dataset), faster-whisper
++ MLOps & Backend Systems  : FastAPI, Docker, LightGBM/XGBoost/CatBoost ensembles, Optuna, PostGIS/SQL
+```
 
-CV processing and multi-agent assessment prototype using LangGraph and FastAPI. Includes PDF extraction, configurable evaluation stages, Server-Sent Events (SSE) updates, and a browser interface built with vanilla JavaScript.
+---
 
-**Topics:** LangGraph, FastAPI, document processing, API streaming.
+### 🚀 Featured Production & Research Repositories
 
-### [FinEvent — Financial Event Extraction](https://github.com/TanNguyen234/finevent-nlp-finance)
+<!-- BENTO GRID 2x2 LAYOUT -->
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚖️ <a href="https://github.com/TanNguyen234/VietLex-Tech-Spec">VietLex — Large-Scale Legal Hybrid RAG</a></h4>
+      <p><sub>Production-oriented Vietnamese legal retrieval engine indexing <b>518,255+ statutory documents</b> with strict citation grounding and zero-hallucination guardrails.</sub></p>
+      <ul>
+        <li><b>Hybrid Search:</b> Dense vector retrieval (<code>Qdrant</code> + <code>bge-m3</code>) fused with lexical search (<code>SQLite FTS5</code>).</li>
+        <li><b>Inference Optimization:</b> Cross-encoder reranking via <code>bge-reranker-v2-m3</code> accelerated on <code>ONNX Runtime</code>.</li>
+      </ul>
+      <p>
+        <kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Qdrant</kbd> <kbd>BGE-M3</kbd> <kbd>ONNX Runtime</kbd> <kbd>SQLite FTS5</kbd>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com/TanNguyen234/CV-Review-System">Multi-Agent AI CV & JD Scoring System</a></h4>
+      <p><sub>Autonomous candidate evaluation pipeline that parses complex resume layouts, benchmarks against job descriptions, and generates actionable gap analysis.</sub></p>
+      <ul>
+        <li><b>Agentic Workflow:</b> Orchestrated specialized parser, rubric evaluator, and critic agents via <code>LangGraph</code>.</li>
+        <li><b>Structured Output:</b> Deterministic JSON schema scoring for technical skills, project depth, and ATS compatibility.</li>
+      </ul>
+      <p>
+        <kbd>LangGraph</kbd> <kbd>Multi-Agent</kbd> <kbd>Python</kbd> <kbd>Prompt Engineering</kbd> <kbd>FastAPI</kbd>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ <a href="https://github.com/TanNguyen234/End-to-End-Real-Time-Fraud-Detection-Pipeline">End-to-End Real-Time Fraud Detection</a></h4>
+      <p><sub>High-throughput financial anomaly detection pipeline engineered for extreme class imbalance and sub-second transaction scoring.</sub></p>
+      <ul>
+        <li><b>Ensemble Modeling:</b> Gradient boosting pipeline (<code>LightGBM</code>, <code>XGBoost</code>, <code>CatBoost</code>) tuned with <code>Optuna</code>.</li>
+        <li><b>Production Pipeline:</b> Automated feature engineering, threshold calibration (PR-AUC optimization), and API serving.</li>
+      </ul>
+      <p>
+        <kbd>LightGBM</kbd> <kbd>XGBoost</kbd> <kbd>CatBoost</kbd> <kbd>Optuna</kbd> <kbd>Scikit-Learn</kbd> <kbd>MLOps</kbd>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>👁️ Multimodal Vision, OCR & Speech Pipelines</h4>
+      <p><sub>Applied Deep Learning across synthetic document understanding, medical imaging, and low-latency voice synthesis.</sub></p>
+      <ul>
+        <li><b>Vietnamese Manga OCR:</b> Generated <b>120,000+ synthetic text-in-wild images</b> with custom font/noise augmentation for <code>YOLOv8/v11</code> & <code>PaddleOCR</code>.</li>
+        <li><b>Real-Time Speech & Medical CV:</b> Chest X-ray abnormality grounding & Vietnamese Speech-to-Speech cloning (<code>faster-whisper</code> + <code>Silero VAD</code>).</li>
+      </ul>
+      <p>
+        <kbd>PyTorch</kbd> <kbd>YOLOv11</kbd> <kbd>SAM 2</kbd> <kbd>PaddleOCR</kbd> <kbd>OpenCV</kbd> <kbd>faster-whisper</kbd>
+      </p>
+    </td>
+  </tr>
+</table>
 
-NLP project for extracting evidence-linked events from SEC filings and comparing financial guidance across reporting periods. Includes data, training, evaluation, API, and frontend components.
+<details>
+<summary><b>🔍 Click to expand: Reference Hybrid RAG & Multi-Agent System Architecture (Mermaid.js)</b></summary>
+<br/>
 
-**Topics:** information extraction, financial NLP, evidence attribution, evaluation.
+```mermaid
+flowchart LR
+    A[User Query / Document] --> B{Query Router Agent}
+    B -->|Semantic Search| C[(Qdrant Vector DB\nbge-m3 1024-d)]
+    B -->|Exact Legal Citation| D[(SQLite FTS5\nBM25 Lexical Index)]
+    C --> E[Reciprocal Rank Fusion]
+    D --> E
+    E --> F[ONNX Cross-Encoder\nbge-reranker-v2-m3]
+    F --> G[Grounded LLM Generator]
+    G --> H{Hallucination & Citation Audit}
+    H -->|Verified| I[Structured Response]
+    H -->|Retry / Refine| B
+```
 
-### [VAIPE-MedGuard — Medication Image Research](https://github.com/TanNguyen234/vaipe-medguard)
+</details>
 
-Research prototype exploring DINOv2-based representations and gallery matching for identifying medication images under prescription constraints. **Not a clinically validated tool or a substitute for professional medication verification.**
+---
 
-**Topics:** PyTorch, DINOv2, metric learning, dataset evaluation.
+### 🛠️ Technical Stack & Tooling
 
-### [YouTubeAgents — Agent-Assisted Video Workflow](https://github.com/TanNguyen234/YoutubeAgents)
+<table width="100%">
+  <tr>
+    <td width="25%"><b>Category</b></td>
+    <td width="75%"><b>Technologies & Frameworks</b></td>
+  </tr>
+  <tr>
+    <td><b>AI / Deep Learning</b></td>
+    <td>
+      <kbd>PyTorch</kbd> <kbd>ONNX Runtime</kbd> <kbd>Ultralytics YOLOv8/v11</kbd> <kbd>SAM 2</kbd> <kbd>LightGBM</kbd> <kbd>XGBoost</kbd> <kbd>CatBoost</kbd> <kbd>Optuna</kbd> <kbd>Scikit-learn</kbd>
+    </td>
+  </tr>
+  <tr>
+    <td><b>LLM, RAG & Agents</b></td>
+    <td>
+      <kbd>LangGraph</kbd> <kbd>Sentence-Transformers</kbd> <kbd>BAAI/bge-m3</kbd> <kbd>Qdrant</kbd> <kbd>SQLite FTS5</kbd> <kbd>BERTopic</kbd> <kbd>Headless AI Detection</kbd>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Vision, Audio & GIS</b></td>
+    <td>
+      <kbd>OpenCV</kbd> <kbd>PaddleOCR</kbd> <kbd>EasyOCR</kbd> <kbd>faster-whisper</kbd> <kbd>Silero VAD</kbd> <kbd>FFmpeg</kbd> <kbd>GDAL</kbd> <kbd>Rasterio</kbd> <kbd>PostGIS</kbd>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend & Full-Stack</b></td>
+    <td>
+      <kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>C# / .NET Core</kbd> <kbd>Java / Spring Boot</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Flutter</kbd> <kbd>PostgreSQL</kbd> <kbd>SQL Server</kbd> <kbd>Docker</kbd>
+    </td>
+  </tr>
+</table>
 
-Experimental workflow for researching, scripting, preparing, and reviewing YouTube videos. The repository describes human approval gates and outstanding end-to-end verification requirements; it is **not presented as a fully autonomous production system**.
+<div align="center">
+  <br/>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,postgres,sqlite,dotnet,spring,react,ts,flutter,git,linux,vscode&perline=14" alt="Tech Stack Icons" />
+</div>
 
-**Topics:** agent orchestration, media pipelines, quality gates, Python.
+---
 
-### [NEU Surface Defect Detection](https://github.com/TanNguyen234/NEU-Surface-Defect-Detection)
+### 📊 GitHub Telemetry & Engineering Activity
 
-Object-detection pipeline for steel-surface defects, covering dataset conversion, YOLO training, inference, and result visualization.
+<div align="center">
 
-**Topics:** YOLO, OpenCV, computer vision, training workflows.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&Rank_icon=github" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=default&hide_border=true&title_color=0969DA&icon_color=0969DA" />
+  <img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=TanNguyen234&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=TanNguyen234&theme=default&hide_border=true" />
+  <img height="165" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=TanNguyen234&theme=tokyonight&hide_border=true&background=0D1117" />
+</picture>
 
-## Tools I Work With
+</div>
 
-| Area | Tools and concepts |
-| --- | --- |
-| AI / ML | Python, PyTorch, YOLO, OpenCV, DINOv2 |
-| LLM / NLP | LangGraph, RAG, retrieval and reranking, LLM APIs |
-| Applications | FastAPI, REST APIs, React, JavaScript, Docker |
-| Quality / experiments | Pytest, Git, reproducible evaluation, Kaggle |
+<details>
+<summary><b>🎓 Academic Background & Milestones</b></summary>
+<br/>
 
-## Engineering Approach
+* **B.S. in Information Technology & Computer Science** — *Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)*
+* **Academic Merit Scholarship Recipient** (*Học bổng Khuyến học*)
+* **Research & Competition Highlights:**
+  * Built a **200-page Headless Academic AI Text Detector & Citation Auditor** for `.docx` and `.pdf` theses.
+  * Conducted spatial flood-risk modeling and environmental GIS analysis across Central & South-Central Vietnam (`GDAL`, `Rasterio`, `PostGIS`).
+  * Mathematics & Artificial Intelligence Academic Olympiad participant.
 
-- Connect claims to source code, experiments, tests, or documented evidence.
-- Separate **implemented features**, **measured results**, and **work in progress**.
-- Prefer explicit failure states and human review for high-impact actions.
+</details>
 
-## Explore More
+---
 
-- [All GitHub repositories](https://github.com/TanNguyen234?tab=repositories)
-- [Portfolio source repository](https://github.com/TanNguyen234/portforlio)
-- [Profile source and maintenance notes](https://github.com/TanNguyen234/TanNguyen234/blob/main/docs/PROFILE_SOURCES.md)
+> [!TIP]
+> **Let's Connect:** Looking to collaborate on **Production RAG, Agentic Workflows, or Computer Vision / OCR**? Reach out directly via [**tanntd.2005@gmail.com**](mailto:tanntd.2005@gmail.com).
