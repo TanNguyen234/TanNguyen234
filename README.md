@@ -22,7 +22,7 @@
 ---
 
 > [!IMPORTANT]
-> **Current Engineering Focus:** Building end-to-end AI systems with measurable latency/accuracy SLAs—from **Hybrid Legal RAG (518K+ docs)** and **LangGraph Multi-Agent Orchestration** to **ONNX-accelerated Computer Vision & Vietnamese OCR pipelines**. Open to **AI Engineer (Intern / Fresher)** opportunities in Ho Chi Minh City.
+> **Open to Opportunities:** Actively seeking **AI Engineer (Intern / Fresher)** opportunities in Ho Chi Minh City (or Remote). Dedicated to designing, building, and deploying scalable machine learning pipelines, intelligent retrieval systems, and end-to-end AI applications.
 
 ---
 
@@ -129,26 +129,26 @@ flowchart LR
   <tr>
     <td><b>LLM, RAG & Agents</b></td>
     <td>
-      <kbd>LangGraph</kbd> <kbd>Sentence-Transformers</kbd> <kbd>BAAI/bge-m3</kbd> <kbd>Qdrant</kbd> <kbd>SQLite FTS5</kbd> <kbd>BERTopic</kbd> <kbd>Headless AI Detection</kbd>
+      <kbd>LangGraph</kbd> <kbd>Sentence-Transformers</kbd> <kbd>BAAI/bge-m3</kbd> <kbd>Qdrant</kbd> <kbd>SQLite FTS5</kbd> <kbd>BERTopic</kbd>
     </td>
   </tr>
   <tr>
-    <td><b>Vision, Audio & GIS</b></td>
+    <td><b>Vision, Audio & OCR</b></td>
     <td>
-      <kbd>OpenCV</kbd> <kbd>PaddleOCR</kbd> <kbd>EasyOCR</kbd> <kbd>faster-whisper</kbd> <kbd>Silero VAD</kbd> <kbd>FFmpeg</kbd> <kbd>GDAL</kbd> <kbd>Rasterio</kbd> <kbd>PostGIS</kbd>
+      <kbd>OpenCV</kbd> <kbd>PaddleOCR</kbd> <kbd>EasyOCR</kbd> <kbd>faster-whisper</kbd> <kbd>Silero VAD</kbd> <kbd>FFmpeg</kbd>
     </td>
   </tr>
   <tr>
-    <td><b>Backend & Full-Stack</b></td>
+    <td><b>AI Serving & MLOps</b></td>
     <td>
-      <kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>C# / .NET Core</kbd> <kbd>Java / Spring Boot</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Flutter</kbd> <kbd>PostgreSQL</kbd> <kbd>SQL Server</kbd> <kbd>Docker</kbd>
+      <kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Docker</kbd> <kbd>PostgreSQL</kbd> <kbd>SQLite</kbd> <kbd>Linux</kbd>
     </td>
   </tr>
 </table>
 
 <div align="center">
   <br/>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,postgres,sqlite,dotnet,spring,react,ts,flutter,git,linux,vscode&perline=14" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,docker" alt="AI Tech Stack Icons" />
 </div>
 
 ---
@@ -158,9 +158,9 @@ flowchart LR
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&Rank_icon=github" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=default&hide_border=true&title_color=0969DA&icon_color=0969DA" />
-  <img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=TanNguyen234&show_icons=true&theme=default&hide_border=true&title_color=0969DA&icon_color=0969DA" />
+  <img height="165" alt="GitHub Stats" src="https://github-stats-extended.vercel.app/api?username=TanNguyen234&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=TanNguyen234&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
@@ -186,4 +186,4 @@ flowchart LR
 ---
 
 > [!TIP]
-> **Let's Connect:** Looking to collaborate on **Production RAG, Agentic Workflows, or Computer Vision / OCR**? Reach out directly via [**tanntd.2005@gmail.com**](mailto:tanntd.2005@gmail.com).
+> **Let's Connect:** Always open to collaborations, technical exchanges, and discussing new opportunities in AI & software engineering. Feel free to connect via [**tanntd.2005@gmail.com**](mailto:tanntd.2005@gmail.com).
