@@ -26,7 +26,7 @@
 
 ---
 
-### ⚡ Engineering Snapshot
+### Engineering Snapshot
 
 ```diff
 + Hybrid RAG & Retrieval   : BAAI/bge-m3 + bge-reranker-v2-m3 (ONNX Runtime) | Qdrant Vector + SQLite FTS5
@@ -37,13 +37,13 @@
 
 ---
 
-### 🚀 Featured Production & Research Repositories
+### Featured Production & Research Repositories
 
 <!-- BENTO GRID 2x2 LAYOUT -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚖️ <a href="https://github.com/TanNguyen234/VietLex-Tech-Spec">VietLex — Large-Scale Legal Hybrid RAG</a></h4>
+      <h4><a href="https://github.com/TanNguyen234/VietLex-Tech-Spec">VietLex — Large-Scale Legal Hybrid RAG</a></h4>
       <p><sub>Production-oriented Vietnamese legal retrieval engine indexing <b>518,255+ statutory documents</b> with strict citation grounding and zero-hallucination guardrails.</sub></p>
       <ul>
         <li><b>Hybrid Search:</b> Dense vector retrieval (<code>Qdrant</code> + <code>bge-m3</code>) fused with lexical search (<code>SQLite FTS5</code>).</li>
@@ -54,7 +54,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🤖 <a href="https://github.com/TanNguyen234/CV-Review-System">Multi-Agent AI CV & JD Scoring System</a></h4>
+      <h4><a href="https://github.com/TanNguyen234/CV-Review-System">Multi-Agent AI CV & JD Scoring System</a></h4>
       <p><sub>Autonomous candidate evaluation pipeline that parses complex resume layouts, benchmarks against job descriptions, and generates actionable gap analysis.</sub></p>
       <ul>
         <li><b>Agentic Workflow:</b> Orchestrated specialized parser, rubric evaluator, and critic agents via <code>LangGraph</code>.</li>
@@ -67,7 +67,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/TanNguyen234/End-to-End-Real-Time-Fraud-Detection-Pipeline">End-to-End Real-Time Fraud Detection</a></h4>
+      <h4><a href="https://github.com/TanNguyen234/End-to-End-Real-Time-Fraud-Detection-Pipeline">End-to-End Real-Time Fraud Detection</a></h4>
       <p><sub>High-throughput financial anomaly detection pipeline engineered for extreme class imbalance and sub-second transaction scoring.</sub></p>
       <ul>
         <li><b>Ensemble Modeling:</b> Gradient boosting pipeline (<code>LightGBM</code>, <code>XGBoost</code>, <code>CatBoost</code>) tuned with <code>Optuna</code>.</li>
@@ -78,7 +78,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>👁️ Multimodal Vision, OCR & Speech Pipelines</h4>
+      <h4>Multimodal Vision, OCR & Speech Pipelines</h4>
       <p><sub>Applied Deep Learning across synthetic document understanding, medical imaging, and low-latency voice synthesis.</sub></p>
       <ul>
         <li><b>Vietnamese Manga OCR:</b> Generated <b>120,000+ synthetic text-in-wild images</b> with custom font/noise augmentation for <code>YOLOv8/v11</code> & <code>PaddleOCR</code>.</li>
@@ -92,7 +92,7 @@
 </table>
 
 <details>
-<summary><b>🔍 Click to expand: Reference Hybrid RAG & Multi-Agent System Architecture (Mermaid.js)</b></summary>
+<summary><b>Architecture Diagram: Hybrid RAG & Multi-Agent Workflow (Mermaid)</b></summary>
 <br/>
 
 ```mermaid
@@ -113,7 +113,7 @@ flowchart LR
 
 ---
 
-### 🛠️ Technical Stack & Tooling
+### Technical Stack & Tooling
 
 <table width="100%">
   <tr>
@@ -146,14 +146,9 @@ flowchart LR
   </tr>
 </table>
 
-<div align="center">
-  <br/>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,docker" alt="AI Tech Stack Icons" />
-</div>
-
 ---
 
-### 📊 GitHub Telemetry & Engineering Activity
+### GitHub Telemetry & Engineering Activity
 
 <div align="center">
 
@@ -171,7 +166,7 @@ flowchart LR
 </div>
 
 <details>
-<summary><b>🎓 Academic Background & Milestones</b></summary>
+<summary><b>Academic Background & Milestones</b></summary>
 <br/>
 
 * **B.S. in Information Technology & Computer Science** — *Ho Chi Minh City University of Natural Resources and Environment (HCMUNRE)*
